@@ -1,0 +1,22 @@
+Location         : D:\zuomian\FPGA\EX02 - 20261103\project_code\project\media_player_excellence_Runs\phy_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : media_player_excellence_top
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : final
+Setup            : WNS  1226ps  TNS        0ps  NUM_FEPS     0
+Hold             : WNS    24ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+---------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+---------------------------------------------------------------------------------------------------
+      route      |    2     |  1m26s(67%)  |   108(64%)    |       1163        |       1164        
+      place      |    2     |   41s(32%)   |    59(35%)    |       1140        |       1140        
+    import_db    |    1     |    0s(0%)    |     0(0%)     |        299        |        299        
+  import_device  |    1     |    0s(0%)    |     0(0%)     |        83         |        83         
+---------------------------------------------------------------------------------------------------
+      total      |    6     |     2m7s     |      167      |       1163        |       1164        
+---------------------------------------------------------------------------------------------------

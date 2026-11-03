@@ -1,0 +1,84 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/AnLuTD/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     mrchao
+   Run Date =   Tue Nov  3 10:05:31 2026
+
+   Run on =     LAPTOP-HIB0KK4O
+============================================================
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(283)
+HDL-5317 WARNING: input port '**' is not connected on this instance in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_as_ram.enc.v(17)
+HDL-5314 WARNING: net 'volume_lut' does not have a driver in ../../../rtl/io/param_menu_controller.v(29)
+HDL-5314 WARNING: net 'period_lut' does not have a driver in ../../../rtl/io/param_menu_controller.v(30)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../../../dependencies/lesson36_build/al_ip/afifo_32_16_256.v(231)
+HDL-5314 WARNING: net 'glyph_rom' does not have a driver in ../../../rtl/display/subtitle_scroll_24.v(55)
+HDL-5314 WARNING: net 'glyph_rom' does not have a driver in ../../../rtl/display/status_bar_24.v(79)
+HDL-5314 WARNING: net 'song_rom' does not have a driver in ../../../rtl/audio/pcm_media_tone.v(188)
+HDL-5314 WARNING: net 'wave_rom' does not have a driver in ../../../rtl/audio/pcm_media_tone.v(359)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+SYN-5013 WARNING: Undriven net: model "media_player_excellence_top" / net "u_sdram/u2_ram/u2_wrrd/Sdr_init_ref_ba[1]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0)
+		the net's pin: pin "i1[1]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0)
+SYN-5013 WARNING: Undriven net: model "media_player_excellence_top" / net "u_sdram/u2_ram/u2_wrrd/Sdr_init_ref_ba[0]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0)
+		the net's pin: pin "i1[0]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0)
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+USR-6001 WARNING: No nets matched 'get_regs -hier */busy_sync1'
+USR-8012 CRITICAL-WARNING: value for option -to is invalid.
+USR-8159 CRITICAL-WARNING: Command set_false_path -to [get_regs -hier {*/busy_sync1}] in D:/zuomian/FPGA/EX02 - 20261103/project_code/board/player_excellence/constraints/media_player_excellence_top.sdc(14) fails.
+USR-6001 WARNING: No nets matched 'get_regs -hier */commit_sync1'
+USR-8012 CRITICAL-WARNING: value for option -to is invalid.
+USR-8159 CRITICAL-WARNING: Command set_false_path -to [get_regs -hier {*/commit_sync1}] in D:/zuomian/FPGA/EX02 - 20261103/project_code/board/player_excellence/constraints/media_player_excellence_top.sdc(15) fails.
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_video/u_reader/u_read_fifo/ram_inst/ramread0_syn_4" in ../../../dependencies/lesson36_build/al_ip/afifo_32_16_256.v(822) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_video/u_reader/u_read_fifo/ram_inst/ramread0_syn_4" in ../../../dependencies/lesson36_build/al_ip/afifo_32_16_256.v(822) / pin "beb[0]"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-6577 WARNING: The clock signal "u_sdram/u2_ram/SDRAM_CLK" is added with the synthetic instruction (keep/mark_debug/dont_touch/max_fanout), which may create additional logic on this net
+SYN-6562 WARNING: The init value of "u_audio_spectrum/ramread0_syn_5(../../../rtl/audio/audio_spectrum_goertzel.v(132))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_storage_ingest/u_ingest_frontend/u_ingest_pipeline/u_bmp_scaler/ramread0_syn_4(../../../rtl/image/bmp_scaler.v(120))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_storage_ingest/u_ingest_frontend/u_ingest_pipeline/u_file_streamer/ramread0_syn_4(../../../rtl/filesystem/fat32_file_streamer.v(69))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_storage_ingest/u_ingest_frontend/u_ingest_pipeline/u_frame_loader/ramread0_syn_4(../../../rtl/memory/media_frame_loader.v(113))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_video/u_reader/u_read_fifo/ram_inst/ramread0_syn_4(../../../dependencies/lesson36_build/al_ip/afifo_32_16_256.v(822))" will be ignored since gate eram_init is set to off
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[0]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[1]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[2]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[3]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[4]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[5]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[6]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[7]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[8]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[9]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[10]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[11]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[12]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[13]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[14]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[15]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[16]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[17]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[18]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[19]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[20]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[21]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[22]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[23]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[24]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[25]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[26]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[27]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[28]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[29]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[30]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "media_player_excellence_top" / inst "u_sdram/u2_ram/u2_wrrd/Sdr_rd_dout_reg[31]" in ../../../dependencies/lesson36_build/src/sdram/enc_file/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
